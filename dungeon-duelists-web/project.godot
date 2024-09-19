@@ -27,13 +27,14 @@ project/assembly_name="Dungeon-Duelists-Web"
 [file_customization]
 
 folder_colors={
-"res://Escenas/": "gray",
+"res://Escenas/": "teal",
 "res://Escenas/Interfaz/": "orange",
 "res://Escenas/Intro - Creditos/": "red",
 "res://Escenas/Mapas/": "teal",
 "res://Intro - Creditos/": "orange",
 "res://Main/": "red",
-"res://Mapas/": "teal"
+"res://Mapas/": "teal",
+"res://Scrip/": "blue"
 }
 
 [rendering]
