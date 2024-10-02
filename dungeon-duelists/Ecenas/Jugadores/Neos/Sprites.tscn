@@ -1,0 +1,45 @@
+[gd_scene load_steps=7 format=3 uid="uid://d2govsd4qkntb"]
+
+[ext_resource type="Texture2D" uid="uid://comh018k84a2w" path="res://Diseños -Spites-/Sprites -Jugadores-/Neos/120x80_PNGSheets/_Attack.png" id="1_he7y8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pi340"]
+atlas = ExtResource("1_he7y8")
+region = Rect2(0, 0, 120, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e684f"]
+atlas = ExtResource("1_he7y8")
+region = Rect2(120, 0, 120, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1a7cy"]
+atlas = ExtResource("1_he7y8")
+region = Rect2(240, 0, 120, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_360tu"]
+atlas = ExtResource("1_he7y8")
+region = Rect2(360, 0, 120, 80)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vs8oe"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pi340")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e684f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1a7cy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_360tu")
+}],
+"loop": true,
+"name": &"default",
+"speed": 7.0
+}]
+
+[node name="Sprites" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_vs8oe")
+frame_progress = 0.916133
