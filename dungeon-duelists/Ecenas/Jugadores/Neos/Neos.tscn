@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://c0wwrssxbr8y5"]
 
 [ext_resource type="Script" path="res://Script/J -Neos-/NeosScrip.gd" id="1_7ri1v"]
-[ext_resource type="PackedScene" uid="uid://d2govsd4qkntb" path="res://Ecenas/Jugadores/Neos/Sprites.tscn" id="2_om0x3"]
+[ext_resource type="PackedScene" uid="uid://chace2qmvmtwa" path="res://Ecenas/Jugadores/Mago/MagoSprites.tscn" id="2_sk1oh"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_x32af"]
 radius = 7.0
@@ -17,4 +17,4 @@ position = Vector2(164, 18)
 shape = SubResource("CapsuleShape2D_x32af")
 metadata/_edit_group_ = true
 
-[node name="Sprites" parent="." instance=ExtResource("2_om0x3")]
+[node name="MagoSprite" parent="." instance=ExtResource("2_sk1oh")]

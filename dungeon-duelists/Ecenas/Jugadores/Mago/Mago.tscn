@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://cjqy3g7s27p0n"]
 
-[ext_resource type="PackedScene" uid="uid://chace2qmvmtwa" path="res://Ecenas/Jugadores/Mago/Sprites.tscn" id="1_4mg5v"]
+[ext_resource type="PackedScene" uid="uid://chace2qmvmtwa" path="res://Ecenas/Jugadores/Mago/MagoSprites.tscn" id="1_4mg5v"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_afqip"]
 radius = 13.0
