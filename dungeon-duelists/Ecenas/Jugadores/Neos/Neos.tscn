@@ -7,6 +7,7 @@ radius = 7.0
 height = 38.0
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
+position = Vector2(54, 27)
 metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -16,5 +17,4 @@ shape = SubResource("CapsuleShape2D_x32af")
 metadata/_edit_group_ = true
 
 [node name="Sprites" parent="." instance=ExtResource("2_om0x3")]
-position = Vector2(122, 11)
 metadata/_edit_group_ = true
