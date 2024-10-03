@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://m768sekb8adg"]
+
+[ext_resource type="PackedScene" uid="uid://cens5uc1u1al3" path="res://Ecenas/Enemigos/MiniGolem/MiniGolenSprite.tscn" id="1_tm2tf"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ri3jl"]
+radius = 8.0
+height = 24.0
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_ri3jl")
+
+[node name="MiniGolenSprite" parent="." instance=ExtResource("1_tm2tf")]
+position = Vector2(-3, -3)

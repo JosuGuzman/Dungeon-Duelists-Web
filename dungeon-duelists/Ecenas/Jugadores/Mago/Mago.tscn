@@ -1,4 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://cjqy3g7s27p0n"]
+[gd_scene load_steps=3 format=3 uid="uid://cjqy3g7s27p0n"]
+
+[ext_resource type="PackedScene" uid="uid://chace2qmvmtwa" path="res://Ecenas/Jugadores/Mago/Sprites.tscn" id="1_35fbk"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_afqip"]
 
@@ -8,3 +10,5 @@ position = Vector2(64, 38)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(14, 6)
 shape = SubResource("CapsuleShape2D_afqip")
+
+[node name="Node2D" parent="." instance=ExtResource("1_35fbk")]
