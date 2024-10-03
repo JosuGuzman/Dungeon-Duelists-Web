@@ -1,14 +1,24 @@
 [gd_scene load_steps=3 format=3 uid="uid://cjqy3g7s27p0n"]
 
+<<<<<<< HEAD
 [ext_resource type="PackedScene" uid="uid://chace2qmvmtwa" path="res://Ecenas/Jugadores/Mago/Sprites.tscn" id="1_35fbk"]
+=======
+[ext_resource type="PackedScene" uid="uid://chace2qmvmtwa" path="res://Ecenas/Jugadores/Mago/MagoSprites.tscn" id="1_4mg5v"]
+>>>>>>> a10863fcfebde905dd8499501aaf9b2c2b3e69bd
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_afqip"]
+radius = 13.0
+height = 50.0
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
-position = Vector2(64, 38)
+position = Vector2(145, 17)
+
+[node name="Node2D" parent="." instance=ExtResource("1_4mg5v")]
+position = Vector2(177, -12)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(14, 6)
+top_level = true
+position = Vector2(313, 28)
 shape = SubResource("CapsuleShape2D_afqip")
 
 [node name="Node2D" parent="." instance=ExtResource("1_35fbk")]
