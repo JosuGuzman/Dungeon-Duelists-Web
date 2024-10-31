@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Dungeon-Duelists"
-run/main_scene="res://Ecenas/Enemigos/Jefe/Verdugo de la Noche.tscn"
+run/main_scene="res://Escenas/Enemigos/Jefe/Verdugo de la Noche.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 
 [dotnet]

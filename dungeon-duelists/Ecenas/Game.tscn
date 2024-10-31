@@ -1,7 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://bpvhbp11aioup"]
-
-[ext_resource type="PackedScene" uid="uid://cjgmt7nt8nq66" path="res://Ecenas/Mapas/Sala Principal.tscn" id="1_dmoou"]
-
-[node name="Game" type="Node2D"]
-
-[node name="SalaPrincipal" parent="." instance=ExtResource("1_dmoou")]
