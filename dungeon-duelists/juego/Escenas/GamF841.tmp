@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://d2jintjcp0gdm"]
+
+[ext_resource type="PackedScene" uid="uid://2b0gt7dxwg7m" path="res://Escenas/Player/Guerrero.tscn" id="1_a31dy"]
+[ext_resource type="PackedScene" uid="uid://uwa82bnbfk3v" path="res://Escenas/Enemigos/Esqueleto.tscn" id="2_prxvi"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Guerrero" parent="." instance=ExtResource("1_a31dy")]
+position = Vector2(99, 78)
+script = null
+
+[node name="Esqueleto" parent="." instance=ExtResource("2_prxvi")]
+position = Vector2(-117, 122)
+
+[node name="Esqueleto2" parent="." instance=ExtResource("2_prxvi")]
+position = Vector2(-88, -120)
+
+[node name="Esqueleto3" parent="." instance=ExtResource("2_prxvi")]
+position = Vector2(204, -147)
+
+[node name="Esqueleto4" parent="." instance=ExtResource("2_prxvi")]
+position = Vector2(400, 38)
